@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "FUME AI Client Intelligence"
+version = "1.0.0"
+id = "artifacts/fume-ai"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19139
+
+[services.development]
+run = "pnpm --filter @workspace/fume-ai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/fume-ai", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/fume-ai/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19139"
+BASE_PATH = "/"
