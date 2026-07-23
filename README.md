@@ -9,6 +9,27 @@ FUME AI Client Intelligence is a frontend prototype developed for a GenAI Produc
 The application demonstrates how AI can analyze WhatsApp-style conversations between a coach and a client, automatically extracting meaningful health insights and presenting them in an interactive dashboard.
 
 ---
+## 📸 Screenshots
+
+### Hero Dashboard
+
+![Hero Dashboard](herocard.PNG)
+
+### Input Conversation
+
+![Input Conversation](Input%20conversation.PNG)
+
+### AI Processing Pipeline
+
+![AI Pipeline](Ai%20pipeline.PNG)
+
+### Dashboard Cards
+
+![Cards 1](cards1.PNG)
+
+![Cards 2](cards2.PNG)
+
+![Cards 3](cards3.PNG)
 
 ## ✨ Features
 
