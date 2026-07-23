@@ -30,7 +30,6 @@ The application demonstrates how AI can analyze WhatsApp-style conversations bet
 ![Cards 2](cards2.PNG)
 
 ![Cards 3](cards3.PNG)
-
 ## ✨ Features
 
 - 📊 Weekly Client Summary
